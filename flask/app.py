@@ -7,9 +7,9 @@ tasks = []
 
 @app.route('/', methods=['GET'])
 def home():
-    # Display existing tasks and a form to add a new task
+    # Display existing tasks ana form to add a new task
     html = '''
-<!DOCTYPE html>
+<!DOCTYPE htm
 <html>
 <head>
     <title>Todo List</title>
